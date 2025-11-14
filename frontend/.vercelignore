@@ -1,0 +1,19 @@
+# Documentation files - not needed in production
+*.md
+README.md
+
+# Development files
+.env.example
+.gitignore
+.gitattributes
+
+# Test files
+*.test.js
+*.test.jsx
+*.spec.js
+*.spec.jsx
+__tests__/
+
+# IDE
+.vscode/
+.idea/

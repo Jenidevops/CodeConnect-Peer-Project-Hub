@@ -1,0 +1,28 @@
+{
+  "name": "codeconnect",
+  "version": "1.0.0",
+  "description": "CodeConnect - A peer project hub for developers",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run preview"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "express",
+    "mongodb",
+    "firebase",
+    "full-stack",
+    "peer-learning"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

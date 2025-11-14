@@ -1,0 +1,18 @@
+# Tell GitHub that example files are not secrets
+*.example linguist-generated=true
+*.md linguist-documentation
+
+# Documentation files with example credentials are safe
+README.md linguist-documentation
+SETUP.md linguist-documentation
+DEPLOYMENT.md linguist-documentation
+backend/README.md linguist-documentation
+frontend/README.md linguist-documentation
+
+# Example environment files are templates, not secrets
+.env.example text
+backend/.env.example text
+frontend/.env.example text
+
+# These files contain example/placeholder values only
+FIREBASE_AUTH_SETUP.md linguist-documentation
