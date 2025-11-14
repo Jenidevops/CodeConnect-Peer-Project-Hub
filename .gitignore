@@ -22,6 +22,19 @@ dist/
 backend/.env
 frontend/.env
 
+# Documentation files - Private, not for GitHub (except README.md)
+*.md
+!README.md
+SETUP.md
+DEPLOYMENT.md
+DEPLOYMENT_SUMMARY.md
+SECURITY_CHECKLIST.md
+FIREBASE_AUTH_SETUP.md
+DESIGN_SYSTEM.md
+NEXT_STEPS.md
+backend/README.md
+frontend/README.md
+
 # Logs
 logs
 *.log
