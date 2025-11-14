@@ -31,6 +31,23 @@ app.use('/api/comments', require('./routes/comments'));
 app.use('/api/users', require('./routes/users'));
 app.use('/api/bookmarks', require('./routes/bookmarks'));
 
+// Root route
+app.get('/', (req, res) => {
+  res.status(200).json({ 
+    success: true,
+    message: 'CodeConnect API',
+    version: '2.0.0',
+    endpoints: {
+      health: '/health',
+      auth: '/api/auth',
+      projects: '/api/projects',
+      comments: '/api/comments',
+      users: '/api/users',
+      bookmarks: '/api/bookmarks'
+    }
+  });
+});
+
 // Health check route
 app.get('/health', (req, res) => {
   res.status(200).json({ status: 'OK', message: 'CodeConnect API is running' });
