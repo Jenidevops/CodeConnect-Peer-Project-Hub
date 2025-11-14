@@ -10,18 +10,6 @@ A modern, production-ready full-stack platform where developers showcase project
 ![Node](https://img.shields.io/badge/Node.js-Express-339933?logo=node.js)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb)
 
----
-
-> **⚠️ IMPORTANT SECURITY NOTICE**
-> 
-> This documentation contains **EXAMPLE/PLACEHOLDER** values only. All API keys, connection strings, and credentials shown in this file are:
-> - ❌ **NOT REAL** - They are placeholder examples for documentation
-> - ❌ **NOT FUNCTIONAL** - They will not work and are for reference only
-> - ✅ **SAFE TO COMMIT** - All actual secrets are in `.env` files (gitignored)
-> 
-> **Never commit actual `.env` files to version control!**
-
----
 
 ## ✨ Key Features
 
@@ -347,10 +335,6 @@ Visit `http://localhost:3000` - you should see the CodeConnect homepage!
 - Ensure authentication providers are enabled
 
 ---
-
-**Need detailed setup instructions?** See [SETUP.md](./SETUP.md)
-
-**Ready to deploy?** See [DEPLOYMENT.md](./DEPLOYMENT.md)
 
 ## 📡 API Documentation
 
@@ -720,7 +704,7 @@ git push origin main
    - Update MongoDB IP whitelist
    - Test all features in production
 
-**📖 Detailed deployment guide:** See [DEPLOYMENT.md](./DEPLOYMENT.md)
+
 
 ### Alternative Hosting Options
 
@@ -933,8 +917,17 @@ This project was developed as a comprehensive full-stack application demonstrati
 Need help or have questions?
 
 - 📧 Email: jenidevops@gmail.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/codeconnect/issues)
-- 📖 Documentation: [SETUP.md](./SETUP.md), [DEPLOYMENT.md](./DEPLOYMENT.md)
+
+---
+
+> **⚠️ IMPORTANT SECURITY NOTICE**
+> 
+> This documentation contains **EXAMPLE/PLACEHOLDER** values only. All API keys, connection strings, and credentials shown in this file are:
+> - ❌ **NOT REAL** - They are placeholder examples for documentation
+> - ❌ **NOT FUNCTIONAL** - They will not work and are for reference only
+> - ✅ **SAFE TO COMMIT** - All actual secrets are in `.env` files (gitignored)
+> 
+> **Never commit actual `.env` files to version control!**
 
 ---
 
@@ -946,6 +939,6 @@ Need help or have questions?
 
 Made with ❤️ using React, Node.js, MongoDB, and Firebase
 
-**[🚀 Live Demo](#) • [📖 Documentation](./SETUP.md) • [🐛 Report Bug](https://github.com/yourusername/codeconnect/issues) • [✨ Request Feature](https://github.com/yourusername/codeconnect/issues)**
+**[🚀 Live Demo](#) • [📖 Documentation](./SETUP.md) • [🐛 Report Bug](https://github.com/jenidevops@gmail.com/codeconnect/issues) • [✨ Request Feature](https://github.com/jenidevops@gmail.com/codeconnect/issues)**
 
 </div>
